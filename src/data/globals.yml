@@ -1,0 +1,20 @@
+site-title: "Atlante Ambientale | Provincia di Cremona"
+nav:
+  -
+    title: Servizi
+    link: "servizi.html"
+  - 
+    title: Piani
+    link: "servizi.html"
+  - 
+    title: Protezione Civile
+    link: "protezione-civile.html"
+  - 
+    title: Catasto
+    link: "http://geoportale.provincia.cremona.it/"
+  - 
+    title: Biblioteca
+    link: "biblioteca.html"
+  - 
+    title: Metadati
+    link: "metadati.html"
