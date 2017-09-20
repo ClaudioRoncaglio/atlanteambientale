@@ -1,3 +1,3 @@
 # atlanteambientale
 
-Rifacimento grafico del sito [http://www.atlanteambientale.it](http://www.atlanteambientale.it) utilizzando [http://foundation.zurb.com](Zurb Foundation) come front-end framework.
+Rifacimento grafico del sito [http://www.atlanteambientale.it](http://www.atlanteambientale.it) utilizzando [Zurb Foundation](http://foundation.zurb.com) come front-end framework.
