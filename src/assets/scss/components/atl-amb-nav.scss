@@ -1,0 +1,16 @@
+//$atl-amb-top-bar-bg: darken($dark-gray, 15%);
+$atl-amb-top-bar-bg: $atl-amb-green;
+$atl-amb-top-bar-text-color: $white;
+
+.atl-amb-top-bar {
+  background: $atl-amb-top-bar-bg;
+  color: $atl-amb-top-bar-text-color;
+
+  .menu {
+    background: $atl-amb-top-bar-bg;
+
+    a {
+      color: $atl-amb-top-bar-text-color;
+    }
+  }
+}

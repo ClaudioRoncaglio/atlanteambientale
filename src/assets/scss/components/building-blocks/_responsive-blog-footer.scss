@@ -1,0 +1,55 @@
+$highlight: $primary-color;
+
+.responsive-blog-footer {
+  //background: darken($dark-gray, 25%);
+  background: darken($atl-amb-green, 25%);
+  padding: 3rem 3rem;
+  color: white;
+
+  h4 {
+    @media screen and (max-width: 39.9375em) {
+      font-size: 1.2rem;
+    }
+  }
+
+  p {
+    color: $medium-gray;
+  }
+  address {
+    color: $medium-gray;
+    font-size: 0.8rem;
+
+    a {
+      color: $white;
+    }
+  }
+
+  .about-section, .tag-section {
+    margin-bottom: 2rem;
+
+    a {
+      //color: $highlight;
+      color: $light-gray;
+      text-decoration: underline;
+    }
+  }
+
+  .subscribe-button {
+    background-color:$highlight;
+
+    &:hover {
+     background-color: darken($highlight, 5%);
+     transition: color 0.3s ease-in;
+    }
+  }
+
+  .fa-chevron-circle-up {
+    font-size: 3rem;
+    color: $dark-gray;
+
+     &:hover {
+     color: lighten($dark-gray, 15%);
+     transition: color 0.3s ease-in;
+    }
+  }
+}
