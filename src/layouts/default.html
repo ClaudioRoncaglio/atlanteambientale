@@ -10,12 +10,17 @@
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
   </head>
   <body>
+    <header>
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
     {{> navigation}}
+    </header>
     {{#ifpage 'index'}}
       {{> clean-hero-slider}}
+      {{> body}}
     {{/ifpage}}
-    {{> body}}
+    {{#unlesspage 'index'}}
+      {{> body }}
+    {{/unlesspage}}
     {{> responsive-blog-footer}}
     <script src="{{root}}assets/js/app.js"></script>
   </body>

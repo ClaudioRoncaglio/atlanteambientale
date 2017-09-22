@@ -3,18 +3,44 @@ nav:
   -
     title: Servizi
     link: "servizi.html"
-  - 
+  -
     title: Piani
     link: "servizi.html"
-  - 
+  -
     title: Protezione Civile
     link: "protezione-civile.html"
-  - 
+  -
     title: Catasto
     link: "http://geoportale.provincia.cremona.it/"
-  - 
+  -
     title: Biblioteca
     link: "biblioteca.html"
-  - 
+  -
     title: Metadati
     link: "metadati.html"
+
+menu:
+  -
+    titolo: Servizi
+    pagine:
+      -
+        nome: "Servizio di prova 1"
+        link: "servizi.html"
+      -
+        nome: "Servizio di prova 2"
+        link: "servizi.html"
+      -
+        nome: "Servizio di prova 3"
+        link: "servizi.html"
+  -
+    titolo: Piani
+    pagine:
+      -
+        nome: "Piano di prova 1"
+        link: "piani.html"
+      -
+        nome: "Piano di prova 2"
+        link: "piani.html"
+      -
+        nome: "Piano di prova 3"
+        link: "piani.html"
