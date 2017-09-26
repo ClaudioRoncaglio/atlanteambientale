@@ -1,0 +1,13 @@
+<br />
+<div class="grid-x grid-margin-x text-left">
+  {{#each globals.menu}}
+  {{#each pagine}}
+  <div class="large-4 medium-6 cell">
+      <a href="{{root}}{{link}}" title="Vai a {{nome}}"><img class="thumbnail" src="{{root}}assets/img/thumb/{{logo}}" alt="Immagine {{nome}}" /></a>
+        <h4><a href="{{root}}{{link}}">{{nome}}</a></h4>
+        <p>Everything you need to know about using the framework.</p>
+    <br />
+  </div>
+  {{/each}}
+  {{/each}}
+</div>

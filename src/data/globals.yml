@@ -1,14 +1,8 @@
 site-title: "Atlante Ambientale | Provincia di Cremona"
 nav:
   -
-    title: Servizi
-    link: "servizi.html"
-  -
-    title: Piani
-    link: "servizi.html"
-  -
-    title: Protezione Civile
-    link: "protezione-civile.html"
+    title: Home
+    link: "index.html"
   -
     title: Catasto
     link: "http://geoportale.provincia.cremona.it/"
@@ -24,23 +18,50 @@ menu:
     titolo: Servizi
     pagine:
       -
-        nome: "Servizio di prova 1"
-        link: "servizi.html"
+        nome: "Auto Atlante"
+        link: "auto-atlante.html"
+        logo: "auto-atlante.jpg"
+        desc: "Informazioni su limitazioni alla circolazione, lavori e chiusure lungo i tratti fuori centro abitato delle Strade Provincialo"
       -
-        nome: "Servizio di prova 2"
-        link: "servizi.html"
+        nome: "Atlante Ambientale"
+        link: "atlante-ambientale.html"
+        logo: "crops.jpg"
+        desc: "La cartografia specificamente realizzata per le tematiche ambientali"
       -
-        nome: "Servizio di prova 3"
-        link: "servizi.html"
+        nome: "Previsioni di Piano"
+        link: "tav-previsioni-piano.html"
+        logo: "puzzle.jpg"
+      -
+        nome: "DM 52/15"
+        link: "dm-52-15.html"
+        logo: "puzzle.jpg"
+      -
+        nome: "Piano rifiuti"
+        link: "piano-rifiuti.html"
+        logo: "rifiuti.jpg"
   -
-    titolo: Piani
+    titolo: "Protezione Civile"
     pagine:
       -
-        nome: "Piano di prova 1"
-        link: "piani.html"
+        nome: "Rischio idraulico del fiume Po"
+        link: "emergenza-fiume-po.html"
+        logo: "fiume.jpg"
       -
-        nome: "Piano di prova 2"
-        link: "piani.html"
+        nome: "Rischio Sismico"
+        link: "emergenza-rischio-sismico.html"
+        logo: "sisma.jpg"
+  -
+    titolo: "Risorse"
+    pagine:
       -
-        nome: "Piano di prova 3"
-        link: "piani.html"
+        nome: "Il Catasto Digitale"
+        link: "http://geoportale.provincia.cremona.it"
+        logo: "fiume.jpg"
+      -
+        nome: "La Biblioteca"
+        link: "biblioteca.html"
+        logo: "puzzle.jpg"
+      -
+        nome: "Catalogo dei Metadati"
+        link: "metadati.html"
+        logo: "crops.jpg"

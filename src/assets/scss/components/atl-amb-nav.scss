@@ -12,5 +12,8 @@ $atl-amb-top-bar-text-color: $white;
     a {
       color: $atl-amb-top-bar-text-color;
     }
+    a:hover {
+      color: $light-gray;
+    }
   }
 }

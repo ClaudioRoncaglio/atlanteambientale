@@ -1,11 +1,13 @@
 <br />
 <ul class="vertical menu">
   {{#each globals.menu}}
-  <li><h4>{{titolo}}</h4></li>
-  <ul class="nested vertical menu">
-  {{#each pagine}}
-  <li><a href="{{root}}{{link}}">{{ nome }}</a></li>
-  {{/each}}
-  </ul>
+  <li>
+    <b>{{titolo}}</b>
+    <ul class="vertical menu">
+      {{#each pagine}}
+      <li><a href="{{root}}{{link}}">{{ nome }}</a></li>
+      {{/each}}
+    </ul>
+  </li>
   {{/each}}
 </ul>
