@@ -1,8 +1,11 @@
 $highlight: $primary-color;
+$footer-shadow: 0 -2px 5px 0 rgba(0,0,0,.16),
+                0 -2px 10px 0 rgba(0,0,0,.12);
+
 
 .responsive-blog-footer {
-  //background: darken($dark-gray, 25%);
-  background: darken($atl-amb-green, 25%);
+  @include shadow($footer-shadow);
+  background: $atl-amb-dark-green;
   padding: 3rem 3rem;
   color: white;
   margin-top: 2rem;

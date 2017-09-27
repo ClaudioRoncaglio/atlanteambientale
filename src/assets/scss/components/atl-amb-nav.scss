@@ -1,8 +1,11 @@
 //$atl-amb-top-bar-bg: darken($dark-gray, 15%);
 $atl-amb-top-bar-bg: $atl-amb-green;
 $atl-amb-top-bar-text-color: $white;
-
+$atl-amb-top-bar-shadow: 0 2px 5px 0 rgba(0,0,0,.16),
+                       0 2px 10px 0 rgba(0,0,0,.12);
+;
 .atl-amb-top-bar {
+  @include shadow($atl-amb-top-bar-shadow);
   background: $atl-amb-top-bar-bg;
   color: $atl-amb-top-bar-text-color;
 
@@ -13,7 +16,7 @@ $atl-amb-top-bar-text-color: $white;
       color: $atl-amb-top-bar-text-color;
     }
     a:hover {
-      color: $light-gray;
+      color: lighten($atl-amb-green, 35%);
     }
   }
 }

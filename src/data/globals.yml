@@ -56,11 +56,11 @@ menu:
       -
         nome: "Il Catasto Digitale"
         link: "http://geoportale.provincia.cremona.it"
-        logo: "fiume.jpg"
+        logo: "catasto.jpg"
       -
         nome: "La Biblioteca"
         link: "biblioteca.html"
-        logo: "puzzle.jpg"
+        logo: "bookstore.jpg"
       -
         nome: "Catalogo dei Metadati"
         link: "metadati.html"
