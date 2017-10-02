@@ -3,15 +3,19 @@ nav:
   -
     title: Home
     link: "index.html"
+    icon: "home"
+  -
+    title: Manuale
+    link: "manuale.html"
+    icon: "question-circle"
   -
     title: Catasto
     link: "http://geoportale.provincia.cremona.it/"
+    icon: "external-link"
   -
     title: Biblioteca
     link: "biblioteca.html"
-  -
-    title: Metadati
-    link: "metadati.html"
+    icon: "book"
 
 menu:
   -
@@ -28,7 +32,7 @@ menu:
         logo: "crops.jpg"
         desc: "La cartografia specificamente realizzata per le tematiche ambientali"
       -
-        nome: "Previsioni di Piano"
+        nome: "Mosaico Previsioni di Piano"
         link: "tav-previsioni-piano.html"
         logo: "puzzle.jpg"
         desc: "I livelli informativi che i Comuni forniscono al SIT per il controllo prima della pubblicazione dei PGT sul BURL"
