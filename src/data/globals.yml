@@ -21,7 +21,7 @@ menu:
         nome: "Auto Atlante"
         link: "auto-atlante.html"
         logo: "auto-atlante.jpg"
-        desc: "Informazioni su limitazioni alla circolazione, lavori e chiusure lungo i tratti fuori centro abitato delle Strade Provincialo"
+        desc: "Informazioni su limitazioni alla circolazione, lavori e chiusure lungo i tratti fuori centro abitato delle Strade Provinciali"
       -
         nome: "Atlante Ambientale"
         link: "atlante-ambientale.html"
@@ -31,14 +31,17 @@ menu:
         nome: "Previsioni di Piano"
         link: "tav-previsioni-piano.html"
         logo: "puzzle.jpg"
+        desc: "I livelli informativi che i Comuni forniscono al SIT per il controllo prima della pubblicazione dei PGT sul BURL"
       -
         nome: "DM 52/15"
         link: "dm-52-15.html"
         logo: "puzzle.jpg"
+        desc: "Il Decreto Ministeriale che dispone le modalità per le procedure di screening"
       -
         nome: "Piano rifiuti"
         link: "piano-rifiuti.html"
         logo: "rifiuti.jpg"
+        desc: "Cartografia per l'individuazione delle aree idonee e quelle no idonee alla localizzazione degli impianti di smaltimento e recupero dei rifiuti"
   -
     titolo: "Protezione Civile"
     pagine:
@@ -46,10 +49,12 @@ menu:
         nome: "Rischio idraulico del fiume Po"
         link: "emergenza-fiume-po.html"
         logo: "fiume.jpg"
+        desc: "La cartografia realizzata per il Piano di emergenza provinciale del rischio idraulico del fiume Po"
       -
         nome: "Rischio Sismico"
         link: "emergenza-rischio-sismico.html"
         logo: "sisma.jpg"
+        desc: "La cartografia realizzata per il Pinao di emergenza provinciale per il rischio sismico"
   -
     titolo: "Risorse"
     pagine:
@@ -57,11 +62,14 @@ menu:
         nome: "Il Catasto Digitale"
         link: "http://geoportale.provincia.cremona.it"
         logo: "catasto.jpg"
+        desc: "Il portale per gli enti sulle attività di programmazione e governo del territorio"
       -
         nome: "La Biblioteca"
         link: "biblioteca.html"
         logo: "bookstore.jpg"
+        desc: "Documenti, testi e pubblicazioni, tutti liberamente consultabili e scaricabili"
       -
         nome: "Catalogo dei Metadati"
         link: "metadati.html"
         logo: "crops.jpg"
+        desc: "Dettagli, spiegazioni e specifiche dei dati territoriali pubblicati dalla Provincia di Cremona"

@@ -1,0 +1,11 @@
+.atl-amb-navlinks {
+  b {
+    color: $atl-amb-dark-green;
+  }
+   a {
+     color: darken($atl-amb-green, 10%);
+   }
+   a:hover {
+     color: $atl-amb-green;
+   }
+ }
