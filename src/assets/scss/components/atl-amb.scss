@@ -1,11 +1,33 @@
 .atl-amb-navlinks {
+  ul.vertical.menu {
+    li {
+      border-bottom:  1px solid lighten($atl-amb-green, 30%);
+    }
+  }
   b {
     color: $atl-amb-dark-green;
   }
-   a {
-     color: darken($atl-amb-green, 10%);
-   }
-   a:hover {
-     color: $atl-amb-green;
-   }
- }
+  a {
+    color: darken($atl-amb-green, 10%);
+  }
+  a:hover {
+    color: $atl-amb-green;
+  }
+}
+article {
+  h1, h2, h3, h4 {
+    color: $atl-amb-dark-green;
+  }
+  p.lead {
+    color: darken($dark-gray, 20%);
+    //line-height: 120%;
+  }
+}
+
+.atl-amb-callout {
+  @include callout-base;
+  @include callout-style($atl-amb-dark-green);
+  h2, h3, h4 {
+    color: darken($atl-amb-dark-green, 10%);
+  }
+}
