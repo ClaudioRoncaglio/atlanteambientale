@@ -16,10 +16,6 @@ nav:
     title: Biblioteca
     link: "biblioteca.html"
     icon: "book"
-  -
-    title: News
-    link: "news.html"
-    icon: "newspaper-o"
 
 menu:
   -
