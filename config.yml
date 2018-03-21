@@ -14,6 +14,12 @@ UNCSS_OPTIONS:
   ignore:
     - !!js/regexp .foundation-mq
     - !!js/regexp ^\.is-.*
+    - !!js/regexp ^\.fa-home
+    - !!js/regexp ^\.fa-question-circle
+    - !!js/regexp ^\.fa-external-link
+    - !!js/regexp ^\.fa-book
+    - !!js/regexp ^\.orbit*
+    - !!js/regexp .clean-hero-slider
 
 # Gulp will reference these paths when it copies files
 PATHS:
