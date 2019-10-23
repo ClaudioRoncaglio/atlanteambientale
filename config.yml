@@ -19,6 +19,8 @@ UNCSS_OPTIONS:
     - !!js/regexp ^\.fa-external-link
     - !!js/regexp ^\.fa-book
     - !!js/regexp ^\.orbit*
+    - !!js/regexp ^\.slide*
+    - !!js/regexp ^\.mui*
     - !!js/regexp .clean-hero-slider
 
 # Gulp will reference these paths when it copies files
