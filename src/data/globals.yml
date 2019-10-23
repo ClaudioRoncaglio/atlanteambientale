@@ -22,9 +22,9 @@ menu:
     titolo: Servizi
     pagine:
       -
-        nome: "Auto Atlante"
-        link: "auto-atlante.html"
-        logo: "auto-atlante.jpg"
+        nome: "Autoatlante"
+        link: "autoatlante.html"
+        logo: "autoatlante.jpg"
         desc: "Informazioni su limitazioni alla circolazione, lavori e chiusure lungo i tratti fuori centro abitato delle Strade Provinciali"
       -
         nome: "Atlante Ambientale"
