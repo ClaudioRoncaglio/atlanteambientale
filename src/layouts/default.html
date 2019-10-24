@@ -5,7 +5,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ globals.site-title }}</title>
+    <title>{{#ifpage 'index'}}{{ globals.site-title }}{{/ifpage}}{{#unlesspage 'index'}}{{#each globals.menu}}{{#each pagine}}{{#ifpage page}}{{nome}}{{/ifpage}}{{/each}}{{/each}}{{/unlesspage}}</title>
+    <meta name="description" value="{{#ifpage 'index'}}{{ globals.site-desc }}{{/ifpage}}{{#unlesspage 'index'}}{{#each globals.menu}}{{#each pagine}}{{#ifpage page}}{{desc}}{{/ifpage}}{{/each}}{{/each}}{{/unlesspage}}">
+    <meta name="keywords" value="{{#ifpage 'index'}}{{ globals.site-key }}{{/ifpage}}{{#unlesspage 'index'}}{{#each globals.menu}}{{#each pagine}}{{#ifpage page}}{{key}}{{/ifpage}}{{/each}}{{/each}}{{/unlesspage}}">
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
   </head>
   <body>

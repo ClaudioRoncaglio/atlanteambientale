@@ -1,4 +1,7 @@
-site-title: "Atlante Ambientale | Provincia di Cremona"
+site-title: "Atlante Ambientale della Provincia di Cremona"
+site-desc: "Portale cartografico della Provincia di Cremona"
+site-key: "cartografia, cremona, biblioteca, autoatlante, atlante,ambientale, protezione civile, rifiuti, rischio, idrico, idraulico, sismico, catasto, digitale, metadati, catalogo, previsioni, piano"
+
 nav:
   -
     title: Home
@@ -6,7 +9,7 @@ nav:
     icon: "home"
   -
     title: Manuale
-    link: "manuale.html"
+    link: "biblioteca/HELP_CR.pdf"
     icon: "question-circle"
   -
     title: Catasto
@@ -24,41 +27,55 @@ menu:
       -
         nome: "Autoatlante"
         link: "autoatlante.html"
+        page: "autoatlante"
         logo: "autoatlante.jpg"
         desc: "Informazioni su limitazioni alla circolazione, lavori e chiusure lungo i tratti fuori centro abitato delle Strade Provinciali"
+        key: ""
       -
         nome: "Atlante Ambientale"
         link: "atlante-ambientale.html"
+        page: "atlante-ambientale"
         logo: "crops.jpg"
         desc: "La cartografia specificamente realizzata per le tematiche ambientali"
+        key: ""
       -
         nome: "Mosaico Previsioni di Piano"
         link: "tav-previsioni-piano.html"
+        page: "tav-previsioni-piano"
         logo: "puzzle.jpg"
         desc: "I livelli informativi che i Comuni forniscono al SIT per il controllo prima della pubblicazione dei PGT sul BURL"
+        key: ""
       -
         nome: "DM 52/15"
         link: "dm-52-15.html"
+        page: "dm-52-15"
         logo: "puzzle.jpg"
         desc: "Il Decreto Ministeriale che dispone le modalità per le procedure di screening"
+        key: ""
       -
         nome: "Piano rifiuti"
         link: "piano-rifiuti.html"
+        page: "piano-rifiuti"
         logo: "rifiuti.jpg"
         desc: "Cartografia per l'individuazione delle aree idonee e quelle no idonee alla localizzazione degli impianti di smaltimento e recupero dei rifiuti"
+        key: ""
   -
     titolo: "Protezione Civile"
     pagine:
       -
         nome: "Rischio idraulico del fiume Po"
         link: "emergenza-fiume-po.html"
+        page: "emergenza-fiume-po"
         logo: "fiume.jpg"
         desc: "La cartografia realizzata per il Piano di emergenza provinciale del rischio idraulico del fiume Po"
+        key: ""
       -
         nome: "Rischio Sismico"
         link: "emergenza-rischio-sismico.html"
+        page: "emergenza-rischio-sismico"
         logo: "sisma.jpg"
         desc: "La cartografia realizzata per il Pinao di emergenza provinciale per il rischio sismico"
+        key: ""
   -
     titolo: "Risorse"
     pagine:
@@ -67,13 +84,18 @@ menu:
         link: "http://geoportale.provincia.cremona.it"
         logo: "catasto.jpg"
         desc: "Il portale per gli enti sulle attività di programmazione e governo del territorio"
+        key: ""
       -
         nome: "La Biblioteca"
         link: "biblioteca.html"
+        page: "biblioteca"
         logo: "bookstore.jpg"
         desc: "Documenti, testi e pubblicazioni, tutti liberamente consultabili e scaricabili"
+        key: "biblioteca, consultazione, pubblicazioni, tavole, piano, rifiuti, cave, sezioni, idrografia, valore, agricolo, aree, vincolate, giacimenti, relazioni, grandi opere, pozzi, utenze idriche"
       -
         nome: "Catalogo dei Metadati"
         link: "metadati.html"
+        page: "metadati"
         logo: "fogli.jpg"
         desc: "Dettagli, spiegazioni e specifiche dei dati territoriali pubblicati dalla Provincia di Cremona"
+        key: ""
