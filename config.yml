@@ -30,10 +30,14 @@ PATHS:
   # Paths to static assets that aren't images, CSS, or JavaScript
   assets:
     - "src/assets/**/*"
-    - "!src/assets/{img,js,scss}/**/*"
+    - "!src/assets/{img,js,scss,seo}/**/*"
     # Next two lines add location of FontAwesome font assets.
     - "node_modules/font-awesome/**/*"
     - "!node_modules/font-awesome/{css,less,scss}/**/*"
+
+  # Assets per i file robots, .htaccess, etc...  
+  seoassets:
+    - "src/assets/seo/*"
 
   # Paths to Sass libraries, which can then be loaded with @import
   sass:

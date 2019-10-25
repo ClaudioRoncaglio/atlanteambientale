@@ -1,1 +1,5 @@
-Sitemap: https://www.atlanteambientale.it/sitemap.xml 
+# Permetto l'indicizzazione di tutto il sito
+User-agent: *
+Allow: /
+
+# Sitemap: https://www.atlanteambientale.it/sitemap.xml 
