@@ -1,20 +1,8 @@
 <h1>News</h1>
 <p class="lead">Le ultime notizie e gli aggiornamenti del Portale Cartografico della Provincia di Cremona.</p>
-<p>[23-11-2017] <b>Qui mettiamo il titolo della notizia</b><br>
-E qui mettiamo il breve testo descrittivo che cosituisce il corpo della notizia, eventualmente possiamo aggiungerci anche un link alla <a href="#">pagina interessata</a></p>
-<hr>
-<p>[23-11-2017] <b>Qui mettiamo il titolo della notizia</b><br>
-E qui mettiamo il breve testo descrittivo che cosituisce il corpo della notizia, eventualmente possiamo aggiungerci anche un link alla <a href="#">pagina interessata</a></p>
-<hr>
-<p>[23-11-2017] <b>Qui mettiamo il titolo della notizia</b><br>
-E qui mettiamo il breve testo descrittivo che cosituisce il corpo della notizia, eventualmente possiamo aggiungerci anche un link alla <a href="#">pagina interessata</a></p>
-<hr>
-<p>[23-11-2017] <b>Qui mettiamo il titolo della notizia</b><br>
-E qui mettiamo il breve testo descrittivo che cosituisce il corpo della notizia, eventualmente possiamo aggiungerci anche un link alla <a href="#">pagina interessata</a></p>
-<hr>
-<p>[23-11-2017] <b>Qui mettiamo il titolo della notizia</b><br>
-E qui mettiamo il breve testo descrittivo che cosituisce il corpo della notizia, eventualmente possiamo aggiungerci anche un link alla <a href="#">pagina interessata</a></p>
-<hr>
-<p>[23-11-2017] <b>Qui mettiamo il titolo della notizia</b><br>
-E qui mettiamo il breve testo descrittivo che cosituisce il corpo della notizia, eventualmente possiamo aggiungerci anche un link alla <a href="#">pagina interessata</a></p>
-<hr>
+{{#ifpage 'news'}}
+    {{#each news}}
+    <p>[{{data}}]&nbsp;<b>{{title}}</b><br />{{desc}}</p>
+    <hr />
+    {{/each}}
+{{/ifpage}}

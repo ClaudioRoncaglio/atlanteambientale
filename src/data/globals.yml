@@ -31,7 +31,7 @@ menu:
         logo: "autoatlante.jpg"
         desc: "Informazioni su limitazioni alla circolazione, lavori e chiusure lungo i tratti fuori centro abitato delle Strade Provinciali"
         key: "informazioni, limitazioni, circolazione, lavori, chiusure, strade provinciali, neve, pneumatici, catene, cartografia, atlante ambientale, strade provinciali"
-        lastMod: "2019-10-28"
+        lastmod: "2019-10-28"
       -
         nome: "Atlante Ambientale"
         link: "atlante-ambientale.html"
@@ -39,7 +39,7 @@ menu:
         logo: "crops.jpg"
         desc: "La cartografia specificamente realizzata per le tematiche ambientali"
         key: "cartografia, ambientale, falda, freatica, atlante, catasto, strade, area riservata"
-        lastMod: "2019-10-28"
+        lastmod: "2019-10-28"
       -
         nome: "Mosaico Previsioni di Piano"
         link: "tav-previsioni-piano.html"
@@ -47,7 +47,7 @@ menu:
         logo: "puzzle.jpg"
         desc: "I livelli informativi che i Comuni forniscono al SIT per il controllo prima della pubblicazione dei PGT sul BURL"
         key: "webgis, mosaico, mosaicatura, previsioni, piano, comuni, geologica, aree, agricole, impianti, comunali, urbano, trasformazione, riqualioficazione, nodi, corridoi, rete, ecologica"
-        lastMod: "2019-10-28"
+        lastmod: "2019-10-28"
       -
         nome: "DM 52/15"
         link: "dm-52-15.html"
@@ -55,7 +55,7 @@ menu:
         logo: "puzzle.jpg"
         desc: "Il Decreto Ministeriale che dispone le modalità per le procedure di screening"
         key: "decreto, ministeriale, dm, 52, 15, screening, vulnerabilità, VIA, criteri, territoriali"
-        lastMod: "2019-10-28"
+        lastmod: "2019-10-28"
       -
         nome: "Piano rifiuti"
         link: "piano-rifiuti.html"
@@ -63,7 +63,7 @@ menu:
         logo: "rifiuti.jpg"
         desc: "Cartografia per l'individuazione delle aree idonee e quelle no idonee alla localizzazione degli impianti di smaltimento e recupero dei rifiuti"
         key: "piano, rifiuti, tavola, aree, idonee, inidonee, cartografia, gestione, regionale"
-        lastMod: "2019-10-28"
+        lastmod: "2019-10-28"
   -
     titolo: "Protezione Civile"
     pagine:
@@ -74,7 +74,7 @@ menu:
         logo: "fiume.jpg"
         desc: "La cartografia realizzata per il Piano di emergenza provinciale del rischio idraulico del fiume Po"
         key: "rischio, idraulico, fiume, po, cartografia, emergenza, provinciale, cremona, protezione, civile"
-        lastMod: "2019-10-28"
+        lastmod: "2019-10-28"
       -
         nome: "Rischio Sismico"
         link: "emergenza-rischio-sismico.html"
@@ -82,7 +82,7 @@ menu:
         logo: "sisma.jpg"
         desc: "La cartografia realizzata per il Pinao di emergenza provinciale per il rischio sismico"
         key: "rischio, sismico, fiume, po, cartografia, emergenza, provinciale, cremona, protezione, civile"
-        lastMod: "2019-10-28"
+        lastmod: "2019-10-28"
   -
     titolo: "Risorse"
     pagine:
@@ -92,7 +92,7 @@ menu:
         logo: "catasto.jpg"
         desc: "Il portale per gli enti sulle attività di programmazione e governo del territorio"
         key: "catasto, digitale, programmazione, governo, territorio, provincia, cremona"
-        lastMod: "2019-10-28"
+        lastmod: "2019-10-28"
       -
         nome: "La Biblioteca"
         link: "biblioteca.html"
@@ -100,7 +100,7 @@ menu:
         logo: "bookstore.jpg"
         desc: "Documenti, testi e pubblicazioni, tutti liberamente consultabili e scaricabili"
         key: "biblioteca, consultazione, pubblicazioni, tavole, piano, rifiuti, cave, sezioni, idrografia, valore, agricolo, aree, vincolate, giacimenti, relazioni, grandi opere, pozzi, utenze idriche"
-        lastMod: "2019-10-28"
+        lastmod: "2019-10-28"
       -
         nome: "Catalogo dei Metadati"
         link: "metadati.html"
@@ -108,4 +108,4 @@ menu:
         logo: "fogli.jpg"
         desc: "Dettagli, spiegazioni e specifiche dei dati territoriali pubblicati dalla Provincia di Cremona"
         key: "catalogo, metadati, dati, territoriali, specifiche, repertorio, nazionale, RNDT, INSPIRE, ISO"
-        lastMod: "2019-10-28"
+        lastmod: "2019-10-28"
