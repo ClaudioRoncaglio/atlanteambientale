@@ -9,39 +9,18 @@
         <figure class="orbit-figure">
           <img class="orbit-image" src="{{root}}assets/img/slide/crops.jpg" alt="image alt text">
           <figcaption class="orbit-caption">
-            <h3>Ottobre 2019</h3>
-            <p>Aggiornati i servizi online con i nuovi limiti amministrativi comunali forniti da Regione Lombardia</p>
-            <!-- <a href="https://www.atlanteambientale.it/sit/" class="button primary">Vai al S.I.T.</a> -->
+              <h3>{{news.[0].title}}</h3>
+            <p>{{news.[0].desc}}</p>
+            {{#if news.[0].link}}
+            <a href="{{news.[0].link}}" class="button primary">{{news.[0].link-desc}}</a>
+            {{/if}}
           </figcaption>
         </figure>
       </li>
-      <!--
-      <li class="orbit-slide">
-        <figure class="orbit-figure">
-          <img class="orbit-image" src="{{root}}assets/img/slide/puzzle.jpg" alt="image alt text">
-          <figcaption class="orbit-caption">
-            <h3>Nuovo Atlante Ambientale</h3>
-            <p>Online il nuovo sito di Atlante Ambientale: rinnovato nella grafica e aggiornato nei contenuti</p>
-          </figcaption>
-        </figure>
-      </li>
-      <li class="orbit-slide">
-        <figure class="orbit-figure">
-          <img class="orbit-image" src="{{root}}assets/img/slide/autoatlante.jpg" alt="image alt text">
-          <figcaption class="orbit-caption">
-            <h3>Titolo di prova</h3>
-            <p>Fusce dapibus, tellus ac cursus commodo, sit amet risus. Cras mattis consectetur purus sit amet fermentum. Maecenas sed diam sit amet non magna.</p>
-            <a href="#" class="button primary">Sollicitudin</a>
-          </figcaption>
-        </figure>
-      </li>
-      -->
     </ul>
   </div>
   <nav class="orbit-bullets">
-    <button class="is-active" data-slide="1"><span class="show-for-sr">Ottobre 2019</span></button>
-  <!--   <button data-slide="2"><span class="show-for-sr">Nuovo Atlante Ambientale</span></button> -->
-  <!--   <button data-slide="3"><span class="show-for-sr">Titolo di prova</span></button> -->
+      <button class="is-active" data-slide="1"><span class="show-for-sr">{{news.[0].title}}</span></button>
   </nav>
 </div>
 <br />

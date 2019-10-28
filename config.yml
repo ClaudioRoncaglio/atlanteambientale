@@ -38,6 +38,7 @@ PATHS:
   # Assets per i file robots, .htaccess, etc...  
   seoassets:
     - "src/assets/seo/*"
+    - "src/assets/seo/.htaccess"
 
   # Paths to Sass libraries, which can then be loaded with @import
   sass:

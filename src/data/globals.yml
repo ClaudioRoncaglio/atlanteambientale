@@ -1,7 +1,9 @@
+# site-* ---> informazioni generali sul sito
 site-title: "Atlante Ambientale della Provincia di Cremona"
 site-desc: "Portale cartografico della Provincia di Cremona"
 site-key: "cartografia, cremona, biblioteca, autoatlante, atlante,ambientale, protezione civile, rifiuti, rischio, idrico, idraulico, sismico, catasto, digitale, metadati, catalogo, previsioni, piano"
 
+# nav ---> link nella barra verde di navigazione
 nav:
   -
     title: Home
@@ -20,6 +22,7 @@ nav:
     link: "biblioteca.html"
     icon: "book"
 
+# menu ---> voci in homepage e navigazione laterale nelle pagine del sito
 menu:
   -
     titolo: Servizi
@@ -80,7 +83,7 @@ menu:
         link: "emergenza-rischio-sismico.html"
         page: "emergenza-rischio-sismico"
         logo: "sisma.jpg"
-        desc: "La cartografia realizzata per il Pinao di emergenza provinciale per il rischio sismico"
+        desc: "La cartografia realizzata per il Piano di emergenza provinciale per il rischio sismico"
         key: "rischio, sismico, fiume, po, cartografia, emergenza, provinciale, cremona, protezione, civile"
         lastmod: "2019-10-28"
   -

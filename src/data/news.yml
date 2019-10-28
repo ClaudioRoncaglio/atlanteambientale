@@ -1,3 +1,11 @@
+# NEWS PER IL SITO  
+# In hommepage viene visualizzata solo la prima news partendo dall'alto
+#
+# Per consultare l'archivio delle news, accedere alla pagina:
+# https://www.atlanteambientale.it/news.html
+#
+# Possibili valori per il campo img: 
+# autoatlante.jpg bookstore.jpg catasto.jpg crops.jpg fiume.jpg fogli.jpg puzzle.jpg rifiuti.jpg sisma.jpg
 -
     title: "Ottobre 2019"
     desc: "Aggiornati i servizi online con i nuovi limiti amministrativi comunali forniti da Regione Lombardia"
@@ -9,13 +17,13 @@
     title: "Settembre 2019"
     desc: "Descrizione finta per vedere se funziona"
     img: "crops.jpg"
-    link: "https://www.atlanteambientale.it"
-    link-desc: "Clicca qui"
-    data: "2019-09-01"
+    link: "https://www.atlanteambientale.it/autoatlante.html"
+    link-desc: "Clicca qui per andare all'autoatlante"
+    data: "2019-09-03"
 -
     title: "Agosto 2019"
     desc: "Descrizione della news di agosto 2019"
     img: "crops.jpg"
     link: "https://www.atlanteambientale.it"
-    link-desc: "Clicca qui"
+    link-desc: "Guarda le novità"
     data: "2019-08-01"

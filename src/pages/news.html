@@ -3,6 +3,9 @@
 {{#ifpage 'news'}}
     {{#each news}}
     <p>[{{data}}]&nbsp;<b>{{title}}</b><br />{{desc}}</p>
+    {{#if link}}
+    <a href="{{ link }}">{{link-desc}}</a>
+    {{/if}}
     <hr />
     {{/each}}
 {{/ifpage}}

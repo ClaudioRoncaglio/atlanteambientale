@@ -6,8 +6,7 @@ Sviluppo del nuovo sito del S.I.T della Provincia di Cremona ([www.atlanteambien
 ## TODO
 Cose da completare prima della messa online del sito:
 
- - [ ] Generazione atumatica della sitemap.xml (ricordarsi di aggiornare robots.txt)
+ - [x] Finire l'inserimento dell keywords
+ - [x] Documentare il codice
  - [ ] Preparazione di una pagina 404 personalizzata e aggiunta di relativa voce nell'.htaccess
- - [ ] Finire l'inserimento dell keywords
- - [ ] Realizzare la guida all'uso per gli uffici
- - [ ] Realizzare documentazione tecnica
+ - [ ] Aspettare modifiche dagli uffici
