@@ -8,5 +8,7 @@ Cose da completare prima della messa online del sito:
 
  - [x] Finire l'inserimento dell keywords
  - [x] Documentare il codice
- - [ ] Preparazione di una pagina 404 personalizzata e aggiunta di relativa voce nell'.htaccess
- - [ ] Aspettare modifiche dagli uffici
+ - [x] Preparazione di una pagina 404 personalizzata e aggiunta di relativa voce nell'.htaccess
+ - [x] Aspettare modifiche dagli uffici
+ - [ ] Decidere sotto quale licenza rilasciare il materiale
+ - [ ] Verificare questione degli analytics
