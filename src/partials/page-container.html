@@ -5,7 +5,7 @@
     </nav>
     <article class="cell medium-9 small-order-1 medium-order-2">
       {{> body }}
-    <h6 class="subheader">Ultima modifica {{#unlesspage 'index'}}{{#each globals.menu}}{{#each pagine}}{{#ifpage page}}{{lastmod}}{{/ifpage}}{{/each}}{{/each}}{{/unlesspage}}</h6>
+      <h6 class="subheader">{{#unlesspage 'index'}}{{#each globals.menu}}{{#each pagine}}{{#ifpage page}}{{#if lastmod}}Ultima modifica {{lastmod}}{{/if}}{{/ifpage}}{{/each}}{{/each}}{{/unlesspage}}</h6>
     </article>
   </div>
 </div>
