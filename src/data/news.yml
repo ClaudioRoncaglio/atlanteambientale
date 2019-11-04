@@ -7,23 +7,16 @@
 # Possibili valori per il campo img: 
 # autoatlante.jpg bookstore.jpg catasto.jpg crops.jpg fiume.jpg fogli.jpg puzzle.jpg rifiuti.jpg sisma.jpg
 -
+    title: "Novembre 2019"
+    desc: "Online il nuovo sito del Portale Cartografico Provinciale"
+    img: "crops.jpg"
+    link: ""
+    link-desc: ""
+    data: "2019-11-04"
+-
     title: "Ottobre 2019"
     desc: "Aggiornati i servizi online con i nuovi limiti amministrativi comunali forniti da Regione Lombardia"
     img: "crops.jpg"
     link: ""
     link-desc: ""
     data: "2019-10-01"
--
-    title: "Settembre 2019"
-    desc: "Descrizione finta per vedere se funziona"
-    img: "crops.jpg"
-    link: "https://www.atlanteambientale.it/autoatlante.html"
-    link-desc: "Clicca qui per andare all'autoatlante"
-    data: "2019-09-03"
--
-    title: "Agosto 2019"
-    desc: "Descrizione della news di agosto 2019"
-    img: "crops.jpg"
-    link: "https://www.atlanteambientale.it"
-    link-desc: "Guarda le novità"
-    data: "2019-08-01"

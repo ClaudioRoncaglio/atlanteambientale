@@ -29,8 +29,8 @@ menu:
     pagine:
       -
         nome: "Autoatlante"
-        link: "autoatlante.html"
-        page: "autoatlante"
+        link: "auto-atlante.html"
+        page: "auto-atlante"
         logo: "autoatlante.jpg"
         desc: "Informazioni su limitazioni alla circolazione, lavori e chiusure lungo i tratti fuori centro abitato delle Strade Provinciali"
         key: "informazioni, limitazioni, circolazione, lavori, chiusure, strade provinciali, neve, pneumatici, catene, cartografia, atlante ambientale, strade provinciali"
