@@ -50,7 +50,7 @@ Header set X-Frame-Options SAMEORIGIN env=!allow_framing
 
 ErrorDocument 500 "Houston, we have a problem."
 # ErrorDocument 401 http://error.example.com/mordor.html
-# ErrorDocument 404 /404.html
+ErrorDocument 404 /404.html
 
 # ------------------------------------------------------------------------------
 #                          PERFORMANCE CONFIGURATIONS
