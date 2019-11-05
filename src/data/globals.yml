@@ -15,7 +15,7 @@ nav:
     icon: "question-circle"
   -
     title: Catasto
-    link: "http://geoportale.provincia.cremona.it/"
+    link: "https://geoportale.provincia.cremona.it/"
     icon: "external-link"
   -
     title: Biblioteca
@@ -91,7 +91,7 @@ menu:
     pagine:
       -
         nome: "Il Catasto Digitale"
-        link: "http://geoportale.provincia.cremona.it"
+        link: "https://geoportale.provincia.cremona.it"
         logo: "catasto.jpg"
         desc: "Il portale per gli enti sulle attività di programmazione e governo del territorio"
         key: "catasto, digitale, programmazione, governo, territorio, provincia, cremona"
