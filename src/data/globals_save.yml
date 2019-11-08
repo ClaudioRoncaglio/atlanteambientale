@@ -60,14 +60,6 @@ menu:
         key: "decreto, ministeriale, dm, 52, 15, screening, vulnerabilità, VIA, criteri, territoriali"
         lastmod: "2019-10-28"
       -
-        nome: "P.T.C.P."
-        link: "ptcp.html"
-        page: "ptcp"
-        logo: "PTCP.png"
-        desc: "La cartografia online della tavola delle tutele e salvaguardie"
-        key: "piano, territoriale, vincoli, tutele, salvaguardie, tavola, aree, cartografia, gestione"
-        lastmod: "2019-11-08"        
-      -
         nome: "Piano rifiuti"
         link: "piano-rifiuti.html"
         page: "piano-rifiuti"
@@ -75,7 +67,14 @@ menu:
         desc: "Cartografia per l'individuazione delle aree idonee e quelle no idonee alla localizzazione degli impianti di smaltimento e recupero dei rifiuti"
         key: "piano, rifiuti, tavola, aree, idonee, inidonee, cartografia, gestione, regionale"
         lastmod: "2019-10-28"
-
+      -
+        nome: "P.T.C.P."
+        link: "ptcp.html"
+        page: "ptcp"
+        logo: "PTCP.png"
+        desc: "La cartografia online della tavola delle tutele e salvaguardie"
+        key: "piano, rifiuti, tavola, aree, idonee, inidonee, cartografia, gestione, regionale"
+        lastmod: "2019-11-06"
   -
     titolo: "Protezione Civile"
     pagine:
