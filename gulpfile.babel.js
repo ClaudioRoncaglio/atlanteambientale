@@ -29,7 +29,7 @@ function loadConfig() {
 
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
- gulp.series(clean, gulp.parallel(pages, sass, javascript, images, copy, copySeo), styleGuide));
+ gulp.series(clean, gulp.parallel(pages, sass, javascript, images, copy, copySeo)));
 
 // Build the site, run the server, and watch for file changes
 gulp.task('default',
@@ -132,9 +132,9 @@ function javascript() {
 // In production, the images are compressed
 function images() {
   return gulp.src('src/assets/img/**/*')
-    .pipe($.if(PRODUCTION, $.imagemin({
-      progressive: true
-    })))
+    // .pipe($.if(PRODUCTION, $.imagemin({
+    //   progressive: true
+    // })))
     .pipe(gulp.dest(PATHS.dist + '/assets/img'));
 }
 
