@@ -28,20 +28,20 @@ menu:
     titolo: Servizi
     pagine:
       -
-        nome: "Autoatlante"
-        link: "auto-atlante.html"
-        page: "auto-atlante"
-        logo: "autoatlante.jpg"
-        desc: "Informazioni su limitazioni alla circolazione, lavori e chiusure lungo i tratti fuori centro abitato delle Strade Provinciali"
-        key: "informazioni, limitazioni, circolazione, lavori, chiusure, strade provinciali, neve, pneumatici, catene, cartografia, atlante ambientale, strade provinciali"
-        lastmod: "2019-10-28"
-      -
         nome: "Atlante Ambientale"
         link: "atlante-ambientale.html"
         page: "atlante-ambientale"
         logo: "crops.jpg"
         desc: "La cartografia specificamente realizzata per le tematiche ambientali"
         key: "cartografia, ambientale, falda, freatica, atlante, catasto, strade, area riservata"
+        lastmod: "2019-10-28"
+      -
+        nome: "Autoatlante"
+        link: "auto-atlante.html"
+        page: "auto-atlante"
+        logo: "autoatlante.jpg"
+        desc: "Informazioni su limitazioni alla circolazione, lavori e chiusure lungo i tratti fuori centro abitato delle Strade Provinciali"
+        key: "informazioni, limitazioni, circolazione, lavori, chiusure, strade provinciali, neve, pneumatici, catene, cartografia, atlante ambientale, strade provinciali"
         lastmod: "2019-10-28"
       -
         nome: "Mosaico Previsioni di Piano"
