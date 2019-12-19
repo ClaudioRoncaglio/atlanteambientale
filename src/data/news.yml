@@ -7,6 +7,13 @@
 # Possibili valori per il campo img: 
 # autoatlante.jpg bookstore.jpg catasto.jpg crops.jpg fiume.jpg fogli.jpg puzzle.jpg rifiuti.jpg sisma.jpg
 -
+    title: "Dicembre 2019"
+    desc: "Aggiornati i dati catastali"
+    img: "crops.jpg"
+    link: ""
+    link-desc: ""
+    data: "2019-12-10"
+-
     title: "Novembre 2019"
     desc: "Online il nuovo sito del Portale Cartografico Provinciale"
     img: "crops.jpg"
