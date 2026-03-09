@@ -12,7 +12,7 @@
   "dependencies": {
     "font-awesome": "^4.7.0",
     "foundation-sites": "~6.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.7.1",
     "motion-ui": "~1.2.2",
     "what-input": "^4.1.3"
   },
